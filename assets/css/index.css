@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+.cv {
+    max-width: 1160px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #17abb3;
+    padding: 30px 170px 30px 100px;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0 0 5px 0;
+}
+
+.metier {
+    display: block;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+.contact {
+    font-style: normal;
+}
+
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px auto;
+    padding: 0;
+    width: 600px;
+    list-style: none;
+    gap: 10px 100px;
+}
+
+.contact li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.contact span {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    list-style: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact a:hover {
+    color: #e3e3e3;
+}
+
+.contact img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(1);
+}
+
+main {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #e3e3e3;
+    width: 330px;
+    flex-shrink: 0;
+    padding: 45px 40px;
+}
+
+.bloc {
+    margin-bottom: 30px;
+}
+
+.bloc h2 {
+    color: #17abb3;
+    font-size: 25px;
+    font-weight: normal;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 10px;
+    margin-bottom: 0 0 20px 0;
+}
+
+.liste-competences {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liste-competences li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.liste-competences li span:first-child {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.etoiles {
+    color: #17abb3;
+    font-size: 16px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.liste-langues {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liste-langues li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.liste-langues span:first-child {
+    font-weight: bold;
+}
+
+.liste-qualites {
+    list-style: square;
+    color: #17abb3;
+    padding: 0px 20px;
+    margin: 0;
+}
+
+.liste-qualites li::marker {
+    font-size: 20px;
+}
+
+.liste-qualites span {
+    color: #333333;
+}
+
+.liste-interets {
+    list-style: square;
+    color: #17abb3;
+    padding: 0px 20px;
+    margin: 0;
+}
+
+.liste-interets li::marker {
+    font-size: 20px;
+}
+
+.liste-interets span {
+    color: #333333;
+}
+
+.parcours {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 45px 50px 80px 50px;
+}
+
+.parcours p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0 0 10px 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 8px 0 8px 10px;
+    border-left: 4px solid transparent;
+}
+
+.item h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.item span {
+    font-size: 13px;
+}
+
+.date {
+    color: #17abb3;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.item:hover {
+    background-color: #e3e3e3;
+    border-left: 4px solid #17abb3;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #17abb3;
+    padding: 20px;
+}
+
+footer span {
+    color: #ffffff;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.reseaux a img {
+    max-width: 25px;
+    max-height: 25px;
+    filter: brightness(0) invert(1);
+}
