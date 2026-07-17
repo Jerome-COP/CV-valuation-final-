@@ -202,6 +202,7 @@ main {
     text-align: justify;
     text-indent: 30px;
     margin: 0 0 10px 0;
+    line-height: 1.5;
 }
 
 .item {
@@ -216,6 +217,7 @@ main {
 .item h3 {
     margin: 0;
     font-size: 15px;
+    margin-bottom: 2px;
 }
 
 .item span {
@@ -226,6 +228,8 @@ main {
     color: #17abb3;
     font-size: 15px;
     white-space: nowrap;
+    min-width: 120px;
+    text-align: right;
 }
 
 .item:hover {
